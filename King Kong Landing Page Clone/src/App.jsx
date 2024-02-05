@@ -1,12 +1,14 @@
-
+import Header from './Components/Header';
+import Hero from './Components/Hero';
 import './App.css'
 
 function App() {
 
 
   return (
-      <div>
-        <h1>Hello World</h1>
+      <div className='font-sans'>
+        <Header />
+        <Hero />
       </div>
   )
 }

@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // backgroundImage: {
+      //   'hero-pattern': "url('/assets/hero-bg-video-2021.mp4')",
+      // }
+    },
   },
   plugins: [],
 }
