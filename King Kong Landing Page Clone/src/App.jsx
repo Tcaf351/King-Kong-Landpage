@@ -1,4 +1,4 @@
-import Header from './Components/Header';
+import Nav from './Components/Nav';
 import Hero from './Components/Hero';
 import './App.css'
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
       <div className='font-sans'>
-        <Header />
+        <Nav />
         <Hero />
       </div>
   )
