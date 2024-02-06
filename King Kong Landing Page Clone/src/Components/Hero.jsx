@@ -14,14 +14,14 @@ const Hero = () => {
                 </div>
 
             <div className="text-gray-50 flex justify-center">
-                <div className='z-30'>
-                    <p className="text-9xl font-bold tracking-tighter">LIKE STEROIDS<sup>*</sup>
+                <div className='z-30 max-w-4xl'>
+                    <p className="text-9xl font-bold tracking-tighter text-center">LIKE STEROIDS<sup>*</sup>
                     <br /> 
                     FOR BUSINESS</p>
 
-                    <p>Growing a business is hard. We make it a whole lot easier, more predictable, less stressful, and more fun.</p>
+                    <p className='text-center'>Growing a business is hard. We make it a whole lot easier, more predictable, less stressful, and more fun.</p>
 
-                    <div className=''> {/* email input section */}
+                    <div className='max-w-3xl mx-auto'> {/* email input section */}
                         <form>
                             <label htmlFor="email"></label>
                             <input type="text" placeholder="👋 Enter your email here and we'll send you some 'magic'..." 
@@ -43,7 +43,7 @@ const Hero = () => {
                         autoPlay
                         loop
                         muted
-                        className=' rounded-3xl'
+                        className='rounded-3xl '
                         />
                     </div>
 
