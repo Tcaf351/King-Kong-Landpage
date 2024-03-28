@@ -4,54 +4,57 @@ import HeroSmallVideo from '../assets/hero-video-v2.mp4';
 const Hero = () => {
     return ( 
         <div> {/* Hero Container */}
-                <div className='bg-[#0a0404] absolute w-auto min-w-full min-h-full max-w-none'>
+                <div className=''>
                     <video src={ HeroVideo }
                     autoPlay
                     loop
                     muted
-                    className='opacity-15 w-auto min-w-full min-h-full max-w-none'
+                    className=''
                     />
                 </div>
 
-            <div className="text-gray-50 flex justify-center">
-                <div className='z-30 max-w-4xl'>
+            <div className="">
+                <div className=''>
                     <p className="text-9xl font-bold tracking-tighter text-center">LIKE STEROIDS<sup>*</sup>
                     <br /> 
                     FOR BUSINESS</p>
 
                     <p className='text-center'>Growing a business is hard. We make it a whole lot easier, more predictable, less stressful, and more fun.</p>
 
-                    <div className='max-w-3xl mx-auto'> {/* email input section */}
-                        <form>
+                    <div className=''> {/* email input section */}
+                        <form className=''>
                             <label htmlFor="email"></label>
                             <input type="text" placeholder="👋 Enter your email here and we'll send you some 'magic'..." 
-                            className='w-full rounded-full'
+                            className=''
                             />
                             <button className='' type='submit'>Do it</button>
                             <div>→</div> {/* arrow */}
                         </form>
                     </div>
 
-                    <div className='flex justify-center'>
-                        <span>*But it&apos;s 100% legal (pinky promose)</span>
-                        <div>5 stars</div>
-                        <span>4.8 stars out of 5,399 reviews</span>
-                    </div>
+                        <div className=''>
+                            <span className='mx-10 my-5'>*But it&apos;s 100% legal (pinky promose)</span>
+                            
+                            <span className='mx-10 my-5'>5 stars 4.8 stars out of 5,399 reviews</span>
+                        </div>
 
-                    <div className='scale-50 -skew-y-12'> {/* Video section */}
-                        <video src={ HeroSmallVideo }
-                        autoPlay
-                        loop
-                        muted
-                        className='rounded-3xl '
-                        />
-                    </div>
-
+                    
+                        {/* Video section */}
+                        <div className=""> {/* diagonal */}
+                            <video
+                                src={ HeroSmallVideo }
+                                autoPlay
+                                loop
+                                muted
+                                className=""
+                                />
+                        </div>
                 </div>
             </div>
         </div>
      );
 }
+
  
 export default Hero;
 {/*  */}
